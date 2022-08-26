@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Query",
+    "slug": "Query",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["@react-native-firebase/app"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#f6f6f6",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#C30000",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "icon": "./assets/adaptive-icon.png",
+      "backgroundColor": "#C30000",
+      "splash": {
+        "backgroundColor": "#f6f6f6",
+        "image": "./assets/splash.png",
+        "resizeMode": "contain"
+      },
+      "package": "com.query",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
